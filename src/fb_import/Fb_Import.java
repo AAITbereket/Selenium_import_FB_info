@@ -260,7 +260,7 @@ public class Fb_Import {
             try {    
             InputStream in = download(friend_link);
             BufferedImage bufImgOne = ImageIO.read(in);
-            ImageIO.write(bufImgOne, "png", new File(image_name));
+            ImageIO.write(bufImgOne, "png", new File("./new_Imported/Photos/"+image_name));
             
             } catch (Exception ex) {
                 System.out.println("Image download exception ---------"+ex);
