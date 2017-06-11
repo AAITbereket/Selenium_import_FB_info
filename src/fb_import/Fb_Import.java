@@ -44,7 +44,7 @@ public class Fb_Import {
         Fb_Import fb_import = new Fb_Import();
         fb_import.setUp();
         
-        fb_import.facebookImportFriendsData("+251922847962","hiface123");
+        fb_import.facebookImportFriendsData("+251922847962","password");
         
     }
     
